@@ -1,0 +1,31 @@
+{
+  "$schema": "./node_modules/@angular/cli/lib/config/schema.json",
+  "project": {
+    "name": "StreetStyleCrew"
+  },
+  "apps": [
+    {
+      "root": "ClientApp",
+      "outDir": "dist",
+      "assets": [
+      ],
+      "prefix": "app",
+      "styles": [
+        "../node_modules/font-awesome/css/font-awesome.css"
+      ],
+      "scripts": [],
+      "environmentSource": "",
+      "environments": {
+      }
+    }
+  ],
+  "test": {
+    "karma": {
+      "config": "./ClientApp/app/test/karma.conf.js"
+    }
+  },
+  "defaults": {
+    "styleExt": "css",
+    "component": {}
+  }
+}
